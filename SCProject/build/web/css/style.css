@@ -1,0 +1,378 @@
+/* 
+    Author : Farah Athirah Binti Mohd Hanafiah
+*/
+.form-group td{ 
+    border-bottom: 2px solid;
+    border-bottom-color:#0b7dda;  
+}
+.form-group th {
+    color: #0b7dda; 
+}
+.loginh2 h2{
+    text-align: center;
+    color: teal;
+    padding: 30px 0;
+}
+.containerreset{
+    background-color:#e0ebeb;
+    width: 850px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 50px rgba(0,0,0,.2);
+}
+.container2
+{
+    background-color:#e0ebeb;
+    width: 500px;
+    height: auto;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 50px rgba(0,0,0,.2);
+}
+
+.fpreset{
+    padding: 10px; 
+    color: black; 
+    min-width: 70px; 
+    text-align: center; 
+} 
+.fpreset h1{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    color: #507c7c;
+}
+.forms{
+    color: #286FB4;
+    width: auto;
+    text-align:center;
+    overflow: hidden;   
+}
+.formreset{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    overflow: hidden;
+}
+.forms input, .formreset input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    outline: none;
+    padding: 0 0 0 35px;
+    border: 1px solid rgba(0,0,0,0);
+    border-bottom-color: #353c4e;
+    background:transparent;
+}
+.forms img{
+    width: 200px;
+}
+.forms i, .formreset img, .formreset i{
+    width: 20px;
+    position: absolute;
+    margin-top: 15px;
+}
+
+.forms input[type="submit"], .forms input[type="reset"], .formreset input[type="submit"], .formreset input[type="reset"]{
+    width: 100%;
+    border: none;
+    background-color: white;
+    color: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0;
+ }
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  width: auto;
+  padding: 10px;
+  background-color: #286FB4;
+  border-radius: 5px;
+  text-align: center;
+  color: whitesmoke;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  background-color: whitesmoke;
+  border: 3px solid #286FB4;
+  color: #286FB4;
+}
+
+.login-box{
+    background-color: #e0ebeb;
+    border-radius: 1em;
+    border-color: #fff;
+    width: 450px;
+    height: auto;
+    color: inherit;
+    position: relative;
+    box-sizing: border-box;
+    padding: 20px 30px; 
+} 
+
+.input-icons i { 
+    position: absolute; 
+     } 
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+} 
+          
+ 
+.input-field { 
+            width: 100%; 
+            padding: 10px; 
+            text-align: center; 
+}
+.form-submit {
+  text-align: right;
+  padding-top: 27px; }
+.form-row {
+  margin: 0 -15px; }
+.form-row .form-group {
+  width: 50%;
+  padding: 0 15px; }
+
+.form-group {
+  margin-bottom: 23px;
+  position: relative; }
+
+.accForm input, .accForm select, .container3 input {
+  display: block;
+  width: 100%;
+  border: 1px solid #ebebeb;
+  padding: 11px 20px;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 13px;
+ 
+}
+.login-box input[type="submit"], .login-box input[type="reset"]  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: darksalmon;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: auto;
+}
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.container3 {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background: linear-gradient(45deg, #E1F8DC,#FEF8DD, #FFE7C7);
+  animation: gradient 10s ease infinite;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal-content2 {
+  background: linear-gradient(45deg, #E1F8DC,#FEF8DD, #FFE7C7);
+  animation: gradient 10s ease infinite;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+.panels{
+  background: #e0ebeb;
+  box-shadow: 0 0.5rem 0.8rem rgba( 0 , 0 , 0 , 0.502 );
+  min-height:200px;
+  height:auto;
+  width:auto;
+  max-width:900px;
+  border-radius:1em;
+  padding:20px;  
+  margin: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.panel-title{
+  font-size:1.5em;
+  font-weight:bold;
+  text-align: center;
+  color: teal;
+}
+
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 250px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 5%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+.del{
+    align-content: center;
+    margin-top: 20px;
+    background-color: #286FB4;
+    color: white;
+    border-radius: 1em;
+}

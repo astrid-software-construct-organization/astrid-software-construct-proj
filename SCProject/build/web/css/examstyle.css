@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700&display=swap');
+
+.ujian-question{
+    
+    padding: 2px 8px;
+}
+
+
+
+.ujian-warpper{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tab{
+  cursor: pointer;
+  padding:10px 50px;
+  margin:0px 2px;
+  background:#286FB4;
+  display:inline-block;
+  color:#fff;
+  border-radius:3px 3px 0px 0px;
+  box-shadow: 0 0.5rem 0.8rem #00000080;
+}
+
+.tab:hover{
+    background-color: whitesmoke; 
+    color: #286FB4;
+}
+
+.Upanels{
+  background:#fffffff6;
+  box-shadow: 0 2rem 2rem #00000080;
+  min-height:200px;
+  width:100%;
+  max-width: 1000px;
+  border-radius:3px;
+  overflow:hidden;
+  padding:20px;  
+}
+.Upanel{
+  display:none;
+  animation: fadein .8s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.panel-title{
+  font-size:1.5em;
+  font-weight:bold
+}
+.radio{
+  display:none;
+}
+#one:checked ~ .Upanels #one-panel,
+#two:checked ~ .Upanels #two-panel,
+#three:checked ~ .Upanels #three-panel{
+  display:block
+}
+#one:checked ~ .tabs #one-tab,
+#two:checked ~ .tabs #two-tab,
+#three:checked ~ .tabs #three-tab{
+  background:#fffffff6;
+  color:#286FB4;
+  border-top: 3px solid #286FB4;
+}
+
+.ujian-review{
+    border: 2px solid #286FB4;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 100px;
+    text-align: justify;
+    font-size: 18px;
+    position:relative;
+    background-color:white;
+}
+
+table.ujianskema {
+  width: 100%;
+  height: 200px;
+  text-align: left;
+  border-collapse: collapse;
+  border: 1px solid #286FB4;
+}
+table.ujianskema td, table.ujianskema th {
+  border: 1px solid #286FB4;
+  padding: 10px 9px;
+}
+table.ujianskema tbody td {
+  font-size: 13px;
+}
+table.ujianskema tr:nth-child(odd){
+    background-color: #e3f4ff;
+    border: 1px solid #286FB4;
+}
+table.ujianskema tr:nth-child(even) {
+  background-color: #FAFAFB;
+  border: 1px solid #286FB4;
+}
+table.ujianskema tfoot td {
+  font-size: 14px;
+}
+table.ujianskema tfoot .links {
+  text-align: right;
+}
+table.ujianskema tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}

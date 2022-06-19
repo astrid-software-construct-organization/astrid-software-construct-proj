@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 17, 2020, 2:32:06 PM
+    Author     : Adawiyah Azzaharah Binti Zuraimi
+*/
+
+.exercise-question{
+    border: 2px solid #DF4C73;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    font-size: 18px;
+    position:relative;
+    background-color:white;
+}
+.exercise-question div{
+    position:relative;
+}
+
+.q1,.q3,.q5,.q7,.q9,.q11,.q13{
+    background-color: #FAFAFB;
+    border: 1.5px solid #fff0f0;
+}
+
+.q2,.q4,.q6,.q8,.q10,.q12{
+    background-color: #fff0f0;
+}
+
+.exercise-review{
+    border: 2px solid #286FB4;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 100px;
+    text-align: justify;
+    font-size: 18px;
+    position:relative;
+    background-color:white;
+}
+
+table.semakan-latihan {
+    border-collapse: collapse;
+    border: 1px solid #286FB4;
+    width: 100%;
+}
+            
+table.semakan-latihan th, table.semakan-latihan td {
+text-align: left;
+padding: 8px;
+}
+
+table.semakan-latihan tr:nth-child(odd) {background-color: #e3f4ff;border: 1px solid #286FB4;}
+table.semakan-latihan tr:nth-child(even) {background-color: #FAFAFB;border: 1px solid #286FB4;}
+table.semakan-latihan td:first-child{width: 18%; text-align: center;border: 1px solid #286FB4;}
